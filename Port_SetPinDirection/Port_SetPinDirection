@@ -31,9 +31,9 @@
 		GPIO_PORTE_AFSEL_R &= ~pins_mask;
 		GPIO_PORTE_DEN_R |= pins_mask;
 		if(pins_direction)
-		 GPIO_PORTF_DIR_R |= pins_mask; 
+		 GPIO_PORTE_DIR_R |= pins_mask; 
 		  else 
-		 GPIO_PORTF_DIR_R &= ~pins_mask; 
+		 GPIO_PORTE_DIR_R &= ~pins_mask; 
 	 
 	 }
 	 
@@ -47,9 +47,9 @@
 		GPIO_PORTD_AFSEL_R &= ~pins_mask;
 		GPIO_PORTD_DEN_R |= pins_mask;
 		 if(pins_direction)
-		 GPIO_PORTF_DIR_R |= pins_mask; 
+		 GPIO_PORTD_DIR_R |= pins_mask; 
 		  else 
-		 GPIO_PORTF_DIR_R &= ~pins_mask;  
+		 GPIO_PORTD_DIR_R &= ~pins_mask;  
 	 
 	 }
 	 
@@ -63,9 +63,9 @@
 		GPIO_PORTC_AFSEL_R &= ~pins_mask;
 		GPIO_PORTC_DEN_R |= pins_mask;
 		if(pins_direction)
-		 GPIO_PORTF_DIR_R |= pins_mask; 
+		 GPIO_PORTC_DIR_R |= pins_mask; 
 		  else 
-		 GPIO_PORTF_DIR_R &= ~pins_mask; 
+		 GPIO_PORTC_DIR_R &= ~pins_mask; 
 	 
 	 }
 	 
@@ -78,9 +78,9 @@
 		GPIO_PORTB_AFSEL_R &= ~pins_mask;
 		GPIO_PORTB_DEN_R |= pins_mask;
 		 if(pins_direction)
-		 GPIO_PORTF_DIR_R |= pins_mask; 
+		 GPIO_PORTB_DIR_R |= pins_mask; 
 		  else 
-		 GPIO_PORTF_DIR_R &= ~pins_mask; 
+		 GPIO_PORTB_DIR_R &= ~pins_mask; 
 	 
 	 }
 	 
@@ -94,9 +94,9 @@
 		GPIO_PORTA_AFSEL_R &= ~pins_mask;
 		GPIO_PORTA_DEN_R |= pins_mask;
 		 if(pins_direction)
-		 GPIO_PORTF_DIR_R |= pins_mask; 
+		 GPIO_PORTA_DIR_R |= pins_mask; 
 		  else 
-		 GPIO_PORTF_DIR_R &= ~pins_mask; 
+		 GPIO_PORTA_DIR_R &= ~pins_mask; 
 	 
 	 }
 	 

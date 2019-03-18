@@ -5,15 +5,14 @@
 #define GPIO_PCTL_PA432_M  (GPIO_PCTL_PA4_M | GPIO_PCTL_PA3_M | GPIO_PCTL_PA2_M) 
 
 unsigned long delay_1;
-unsigned long num_1=0 , num_2=0 , num_3=0 ;
+unsigned char num_1=0 , num_2=0 , num_3=0 ;
 
 
 void SystemInit()
 {
 
 	volatile unsigned long delay;
-//unsigned long delay_1;
-//unsigned char num_1=0 , num_2=0 , num_3=0 ;
+
 SYSCTL_RCGCGPIO_R |= SYSCTL_RCGCGPIO_R4; //PortE clock enable 
 delay = SYSCTL_RCGCGPIO_R ; //delay 
 SYSCTL_RCGCGPIO_R |= SYSCTL_RCGCGPIO_R1; //PortB clock enable

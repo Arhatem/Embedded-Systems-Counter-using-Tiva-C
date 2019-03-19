@@ -5,7 +5,7 @@
 
 //input: the index of the port that neede to be intiated   output: void
 
- void Port_Init(uint8 port_index ,uint8 pins_mask,Port_PinDirectionType pins_direction )
+ void Port_SetPinDirection(uint8 port_index ,uint8 pins_mask,Port_PinDirectionType pins_direction )
  {
 	 volatile unsigned long delay;
 	 if(port_index==5)

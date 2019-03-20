@@ -1,0 +1,11 @@
+--cpu Cortex-M4.fp
+".\startup_tm4c123.o"
+".\main.o"
+".\port_init.o"
+".\port_setpindirection.o"
+".\port_setpinpulldown.o"
+".\dio_readport.o"
+".\increment.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Microcontroller project_1.map" -o ".\Microcontroller project_1.axf"

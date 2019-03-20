@@ -1,0 +1,34 @@
+Dependencies for Project 'Microcontroller project_1', Target 'MC_1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5C8D3846)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.c)(0x5C91D7B6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (Port_Init.h)(0x5C904829)
+I (tm4c123gh6pm.h)(0x5C791FFE)
+I (Header_file.h)(0x5C9049D3)
+I (Port_SetPinDirection.h)(0x5C9049B1)
+I (Port_SetPinPullDown.h)(0x5C904D20)
+I (DIO_ReadPort.h)(0x5C90DA54)
+I (Increment.h)(0x5C912FEA)
+F (.\Port_Init.c)(0x5C9049E3)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\port_init.o --omf_browse .\port_init.crf --depend .\port_init.d)
+I (Port_Init.h)(0x5C904829)
+I (tm4c123gh6pm.h)(0x5C791FFE)
+I (Header_file.h)(0x5C9049D3)
+F (.\Port_SetPinDirection.c)(0x5C904F7E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\port_setpindirection.o --omf_browse .\port_setpindirection.crf --depend .\port_setpindirection.d)
+I (Port_SetPinDirection.h)(0x5C9049B1)
+I (Port_Init.h)(0x5C904829)
+I (tm4c123gh6pm.h)(0x5C791FFE)
+I (Header_file.h)(0x5C9049D3)
+F (.\Port_SetPinPullDown.c)(0x5C904DE9)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\port_setpinpulldown.o --omf_browse .\port_setpinpulldown.crf --depend .\port_setpinpulldown.d)
+I (tm4c123gh6pm.h)(0x5C791FFE)
+I (Port_SetPinPullDown.h)(0x5C904D20)
+I (Header_file.h)(0x5C9049D3)
+F (.\DIO_ReadPort.c)(0x5C90DFD0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\dio_readport.o --omf_browse .\dio_readport.crf --depend .\dio_readport.d)
+I (Port_Init.h)(0x5C904829)
+I (tm4c123gh6pm.h)(0x5C791FFE)
+I (Header_file.h)(0x5C9049D3)
+I (DIO_ReadPort.h)(0x5C90DA54)
+F (.\Increment.c)(0x5C912690)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Kiel\ARM\RV31\INC-I D:\Kiel\ARM\CMSIS\Include-I D:\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\increment.o --omf_browse .\increment.crf --depend .\increment.d)
+I (Increment.h)(0x5C912FEA)
+I (Port_Init.h)(0x5C904829)
+I (tm4c123gh6pm.h)(0x5C791FFE)
+I (Header_file.h)(0x5C9049D3)
+I (DIO_ReadPort.h)(0x5C90DA54)
